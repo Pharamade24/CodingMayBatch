@@ -6,163 +6,145 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TRAVEL.COM HTML</title>
     <style>
-        a{
-            text-decoration: none;
+        li{
+            display: inline;
+            margin-left: 50px;
         }
         ul{
-            list-style: none;
-        }
-        .vel{
-            color: orange;
-        }
-        .Travel{
-            position: absolute;
-            color: rgb(21, 21, 108);
-            font-size: 40px;
-            left: 0px;
-            font-weight: bold;
-            top: 0px;
-            margin-top: 0px;
-            margin-bottom: 15px;
-        }
-        .Home{
-         position: absolute;   
-         left: 900px;
-         font-weight: bolder;  
-        }
-        .first{
-         color: black;
-         padding: 8px 20px;
-         background-color: white
-        }
-        .Product{
-         position: absolute;   
-         left:1000px;
-         font-weight: lighter;
-        }
-        .second{
-         color: black;
-         padding: 8px 20px;
-         background-color: white
-        }
-        .Resources{
-            position: absolute;
-            left:1100px;
-            font-weight: lighter;
-        }
-        .third{
-            color: black;
-            padding: 8px 20px;
-            background-color: white;
-        }
-        .Contact{
-            position: absolute;
-            left: 1200px;
-            font-weight: lighter;
-        }
-        .fourth{
-            color: black;
-            padding: 8px 20px;
-            background-color: white;
-        }
-        .Blog{
-            position: absolute;
-            left: 1300px;
-            font-weight: lighter;
-        }
-        .fifth{
-            color: black;
-            padding: 8px 20px;
-            background-color: white;
-        }
-        .Login{
-            position: absolute;
-            left: 1400px;
-            font-weight: bolder;
-            background-color:white;
-            border: none;
-            cursor: pointer;
-        }
-        .Sign-up{
-            position: absolute;
-            left: 1500px;
-            font-weight: bold;
-            background-color:rgb(21, 21, 108);
-            border: none;
-            cursor: pointer;
-            color: white;
-            border-radius: 20px;
-            height: 30px;
-            width: 80px;
-            top: 20px;
-            padding: 8px;
+            margin-left: 1135px;
         }
         .container{
             display: flex;
+            align-items: center;
+        }
+        a{
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+        }
+        .opacity{
+            opacity: 0.5;
+        
+        }
+        span{
+            color: orange;
+        }
+        .signup{
+            background-color:darkblue;
+            cursor: pointer;
+            color: white;
+            border-radius: 15px;
+            padding: 6px 18px;
+        }
+        .Box{
+            display: flex;
+            justify-content: space-around;
+            margin-top: 64px;
+        }
+        body{
             background-color: white;
         }
-
+        head{
+            background-color: #fff;
+            border-radius: 30px;
+            margin: 45px;
+        }
         .item-one{
-            position:absolute ;
+            display: inline;
             color:black;
             font-weight: bolder;
             top: 150px;
             font-size: 40px;
             font: 2.5em sans-serif;
+            left: none;
         }
-        .item-two{
-            position: absolute;
+        .Box{
+            display: inline;
+            justify-content: space-around;
+            margin-top: 64px;
             color: black;
-            top: 500px;
+        }
+        .Explore{
+            color: black;
+            font-size: 100px;
+            margin-left: none;
+        }
+        .explorenow{
+            padding: 10px 23px;
+            background-color: darkblue;
+            color: white;
+            font-size: 18px;
             font-weight: bold;
         }
-        .Explore-Now{
-            position: absolute;
-            color: white;
-            background-color:rgb(21, 21, 108);
-            top: 570px;
-            padding: 8px 20px;
-            cursor: pointer;
+        .demo{
+            padding: 10px 23px;
+            background-color:white;
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+            border: none;
         }
-        img{
-            position: absolute;
-            top: 570px;
-            left: 150px;
-            width: 35px;
+        .button{
             background-color: orange;
-            color: orange;
-            cursor: pointer;
+            width: 30px;
+        }
+        .travel{
+        font-size: 25px;
         }
         .timeless{
-            position: absolute;
-            top: 100px;
-            left: 450px;
-            width: 1150px;
-
-        }   
+        position: absolute;
+        bottom:100px;
+        width: 60%;
+        height: 80%;
+        left: 650px;
+        }
     </style>
 </head>
-<body style="background-color:white">
+<body>
     <div class="container">
-    <ul>
-        <h3 class="Travel">Tra<span class="vel">vel.</span>com</h3>
-        <li class="Home"><a href="" class="first">Home</a></li>
-        <li class="Product"><a href="" class="second">Product</a></li>
-        <li class="Resources"><a href="" class="third">Resources</a></li>
-        <li class="Contact"><a href="" class="fourth">Contact</a></li>
-        <li class="Blog"><a href="" class="fifth">Blog</a></li>
-        <button class="Login">Login</button>
-        <button class="Sign-up">Sign Up</button>
-    </ul>
-    <div class="item-one"><h1>Explore<br>Beautiful<br>World.</h1></div>
-    <div class="item-two">Traveling is one about leadership and chartering your own<br> when everybody else is doing the same thing.
+            <h1>
+                Tra<span>vel.</span>com
+            </h1>
+            <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="" class="opacity">Product</a>
+            </li>
+            <li>
+                <a href="" class="opacity">Resources</a>
+            </li>
+            <li>
+                <a href="" class="opacity">Contact</a>
+            </li>
+            <li>
+                <a href="" class="opacity">Blog</a>
+            </li>
+            <li>
+                <a href="">Login</a>
+            </li>
+            <li>
+                <a href="" class="signup">Sign Up</a>
+            </li>
+        </ul>
     </div>
-    <button class="Explore-Now">Explore Now</button>
-    <img src="play-circle.svg" alt="">
-    <img src="timeless.jpg" alt="" class="timeless">
-    <div style="position: absolute; top: 580px; font-weight: bold; left: 190px; cursor: pointer;">Play demo</div>
-    <div style="position: absolute; top: 690px; font-weight: bolder; left: 110px; font-size: 20px;">1000+ Hiking</div>
-    <div style="position: absolute; top: 710px;left: 110px;">More than professional and amateur<br>climbers use our facilities within 1 month.</div>
-   </div> 
+    <section class="Box">
+    <div class="item-one">
+        <h1 class="Explore">Explore<br>Beautiful<br>World.
+        </h1>
+    <p class="travel">
+        Traveling is one about leadership and chartering your own<br> when everybody else is doing the same thing.
+    </p>
+    <button class="explorenow">Explore Now</button>
+    <img src="play-circle.svg" alt="" class="button">
+    <button class="demo">Play demo</button>
+    <br><br><br><br>
+    <h3>1000+ Hiking</h3>
+    <p class="travel">
+        More than professional and amateur<br>climbers use our facilities within 1 month.
+    </p>
+        <img src="timeless.jpg" alt="" class="timeless">
+    </div>
+</section> 
 </body>
-</html>
