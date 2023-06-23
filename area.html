@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Area Calulator</title>
+</head>
+<body>
+    <script>
+     function areaOfCircle(){
+         const PI = 3.142;
+         let r = window.prompt
+         ("Enter radius:");
+         let area = PI * r * r;
+         console.log(area);
+     }
+     areaOfCircle();
+
+    function circumference(){
+        const PI = 3.142;
+        let r = window.prompt
+         ("Enter radius:");
+         let circumference = 2 * PI * r;
+         console.log(circumference)
+     }
+    circumference();
+
+    //ClassWork
+    function add(){
+    let a = parseInt(window.prompt ("Enter a:"));
+    let b = parseInt(window.prompt ("Enter b:"));
+    let c = a + b * a; 
+    let d = a / b + c * a;
+    console.log(d)
+    }
+    add();
+    </script>
+</body>
+</html>
